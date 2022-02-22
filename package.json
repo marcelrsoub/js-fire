@@ -1,0 +1,26 @@
+{
+  "name": "js-fire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./js/main.js",
+  "scripts": {
+    "tsc-watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcelrsoub/js-fire.git"
+  },
+  "keywords": [
+    "javascript",
+    "animation",
+    "canvas",
+    "fire"
+  ],
+  "author": "marcelrsoub",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marcelrsoub/js-fire/issues"
+  },
+  "homepage": "https://github.com/marcelrsoub/js-fire#readme"
+}
