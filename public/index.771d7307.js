@@ -567,6 +567,10 @@ class Fire {
             this.mouse_x = event.x;
             this.mouse_y = event.y;
         });
+        window.addEventListener("touchmove", (event)=>{
+            this.mouse_x = event.touches[0].pageX;
+            this.mouse_y = event.touches[0].pageY;
+        });
     }
     clearCanvas() {
         this.ctx.clearRect(0, 0, this.canvas.width, this.canvas.height);

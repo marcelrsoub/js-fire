@@ -1,4 +1,3 @@
-
 class Fire {
 	canvas: HTMLCanvasElement;
 	mouse_x!: number;
@@ -14,13 +13,13 @@ class Fire {
 		this.mouse_y = 150;
 		this.currentFrame = 0;
 		this.particles = [];
-		
+
 		// make canvas fill up parent div
 		canvas.style.width = "100%";
 		canvas.style.height = "100%";
 		canvas.width = canvas.offsetWidth;
 		canvas.height = canvas.offsetHeight;
-		canvas.style.display='block'; // no scrollbars
+		canvas.style.display = "block"; // no scrollbars
 
 		this.canvas = canvas;
 		this.ctx = canvas.getContext("2d") as CanvasRenderingContext2D;
@@ -35,6 +34,10 @@ class Fire {
 		window.addEventListener("mousemove", (event) => {
 			this.mouse_x = event.x;
 			this.mouse_y = event.y;
+		});
+		window.addEventListener("touchmove", (event) => {
+			this.mouse_x = event.touches[0].pageX;
+			this.mouse_y = event.touches[0].pageY;
 		});
 	}
 
