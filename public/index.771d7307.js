@@ -535,11 +535,13 @@ function hmrAcceptRun(bundle, id) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 var _module = require("./module");
 var _moduleDefault = parcelHelpers.interopDefault(_module);
-const canvas = document.getElementById("view");
-if (canvas) {
-    const fire = new (0, _moduleDefault.default)(canvas);
-    fire.init();
-}
+window.addEventListener("DOMContentLoaded", (event)=>{
+    const canvas = document.getElementById("view");
+    if (canvas) {
+        const fire = new (0, _moduleDefault.default)(canvas);
+        fire.init();
+    }
+});
 
 },{"./module":"99XkW","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"99XkW":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
