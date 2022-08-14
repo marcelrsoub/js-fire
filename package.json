@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/marcelrsoub/js-fire/issues"
   },
-  "homepage": "https://github.com/marcelrsoub/js-fire#readme",
+  "homepage": "https://codesandbox.io/s/github/marcelrsoub/js-fire/tree/main?file=/public/index.html",
   "devDependencies": {
     "@parcel/packager-ts": "2.7.0",
     "@parcel/transformer-typescript-types": "2.7.0",
