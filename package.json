@@ -6,7 +6,7 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev":"parcel src/index.html  --public-url ./ --dist-dir public",
+    "dev":"parcel src/index.html  --public-url /public/ --dist-dir public",
     "build": "parcel build src/module/index.ts"
   },
   "repository": {
