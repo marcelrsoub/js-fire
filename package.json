@@ -5,8 +5,9 @@
   "source": "src/module/index.ts",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
+  "main": "public/index.html",
   "scripts": {
-    "dev":"parcel src/index.html  --public-url /public/ --dist-dir public",
+    "dev": "parcel src/index.html  --public-url /public/ --dist-dir public",
     "build": "parcel build src/module/index.ts"
   },
   "repository": {
@@ -30,5 +31,6 @@
     "@parcel/transformer-typescript-types": "2.7.0",
     "parcel": "^2.7.0",
     "typescript": ">=3.0.0"
-  }
+  },
+  "dependencies": {}
 }
