@@ -6,8 +6,9 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "dev": "parcel src/index.html  --public-url /public/ --dist-dir public",
-    "build": "parcel build src/module/index.ts"
+    "dev": "parcel src/index.html  --dist-dir public",
+    "build": "parcel build src/module/index.ts",
+    "gh-pages": "gh-pages -d public"
   },
   "repository": {
     "type": "git",
@@ -24,10 +25,11 @@
   "bugs": {
     "url": "https://github.com/marcelrsoub/js-fire/issues"
   },
-  "homepage": "https://codesandbox.io/s/github/marcelrsoub/js-fire/tree/main?file=/public/index.html",
+  "homepage": "https://marcelrsoub.github.io/js-fire/",
   "devDependencies": {
     "@parcel/packager-ts": "2.7.0",
     "@parcel/transformer-typescript-types": "2.7.0",
+    "gh-pages": "^4.0.0",
     "parcel": "^2.7.0",
     "typescript": ">=3.0.0"
   },
