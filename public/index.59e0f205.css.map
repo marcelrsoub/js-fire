@@ -1,0 +1,1 @@
+{"mappings":"AAAA;;;;;;;;AAUA","sources":["src/style.css"],"sourcesContent":["*,\r\nhtml,\r\nbody {\r\n\tpadding: 0;\r\n\tmargin: 0;\r\n\twidth: 100vw;\r\n\theight: 100vh;\r\n\tbackground-color: black;\r\n}\r\n\r\n#view {\r\n\tbackground-color: black;\r\n}\r\n"],"names":[],"version":3,"file":"index.59e0f205.css.map","sourceRoot":"/__parcel_source_root/"}
