@@ -550,11 +550,13 @@ class Fire {
         this.currentFrame = 0;
         this.particles = [];
         // make canvas fill up parent div
-        canvas.style.width = "100%";
-        canvas.style.height = "100%";
-        canvas.width = canvas.offsetWidth;
-        canvas.height = canvas.offsetHeight;
-        canvas.style.display = "block"; // no scrollbars
+        if (canvas) {
+            canvas.style.width = "100%";
+            canvas.style.height = "100%";
+            canvas.width = canvas.offsetWidth;
+            canvas.height = canvas.offsetHeight;
+            canvas.style.display = "block"; // no scrollbars
+        }
         this.canvas = canvas;
         this.ctx = canvas.getContext("2d");
     }
